@@ -1,0 +1,62 @@
+/* Navbar */
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #1872EC;
+}
+
+/* Header */
+
+
+header .content h2 {
+  font-size: 4rem;
+  font-family: serif;
+}
+
+.special {
+  transition: all 0.3s;
+}
+
+.special:hover {
+  color: #1872EC !important;
+}
+
+/* First Section */
+
+.first-section .content figure {
+  transition: all 0.2s;
+}
+
+.first-section .content figure:hover {
+  transform: scale(1.02, 1.02);
+  box-shadow: 5px 5px 10px 5px #8888 !important;
+}
+
+/* Second section */
+
+.second-section .content .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #E5EFFD;
+}
+
+.second-section .content .icon .bg-small {
+  width: 30px;
+  height: 30px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+}
+
+.icon i {
+  color: #656E79;
+}
+
+.icon:hover {
+  background-color: #656E79 !important;
+  i {
+    color: #fff;
+  }
+}
